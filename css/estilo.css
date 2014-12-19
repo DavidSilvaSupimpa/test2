@@ -1,0 +1,79 @@
+/*== BODY ==*/
+body { background: #34495D; }
+
+/*== INDEX ==*/
+.logo img { text-align: center; display: block; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px; }
+.formulario { display: block; margin-left: auto; margin-right: auto; }
+.formulario .form-control { border-radius: 20px; }
+.formulario .btn { border-radius: 20px; width: 20%; }
+.img-user { width: 10%; }
+.img-key { width: 10%; }
+
+/*== MENU ==*/
+.menu h2 { text-align: center; margin-bottom: 50px; color: #fff; }
+.item-menu .item { border-radius: 20px; }
+.item-menu .botao img { margin: 7px 4px; }
+
+/*== MODELO,SERIE,SINTOMA ==*/
+.item-menu .opcao { border-radius: 20px; }
+.item-opcao .edit { width: 0; margin-top: 4px; }
+.item-opcao .del { width: 0; margin-top: 4px; }
+.item-opcao .opcao { margin-bottom: 7px; width: 90.666667%; }
+.item-opcao .opcao .item { border-radius: 20px; }
+
+/*== Diagnostico ==*/
+.item-menu .item { border-radius: 20px; }
+.item-menu .botao img { margin: 7px 4px; }
+
+/*== Diagnostico INT/EXT ==*/
+.dig h2 { text-align: center; margin-bottom: 50px; color: #fff; }
+.dig h3 { text-align: center; margin-bottom: 25px; color: #fff; }
+.clicar { text-align: center; }
+.clicar .clicar1 { float: left; margin-left: 300px; margin-bottom: 20px; }
+.clicar .clicar2 { float: right; margin-right: 300px; margin-bottom: 20px; }
+.clicar .clicar3 { float: left; margin-left: 300px; margin-bottom: 20px; }
+.clicar .clicar4 { float: right; margin-right: 300px; margin-bottom: 20px; }
+.titulo1 h5 { margin-left: 230px; margin-top: 30px; margin-bottom: 60px; float: left; color: #fff; }
+.titulo2 h5 { margin-right: 290px; margin-top: 30px; margin-bottom: 60px; float: right; color: #fff; }
+.titulo3 h5 { margin-left: 250px; margin-top: 30px; margin-bottom: 60px; float: left; color: #fff; }
+.titulo4 h5 { margin-right: 230px; margin-top: 30px; margin-bottom: 60px; float: right; color: #fff; }
+.clicar1 input { width: 30px; height: 30px }
+.clicar2 input { width: 30px; height: 30px }
+.clicar3 input { width: 30px; height: 30px }
+.clicar4 input { width: 30px; height: 30px }
+
+/*== REPARO CONCLUIDO ==*/
+.conf1 h5 { margin-left: 300px; margin-top: 30px; margin-bottom: 60px; float: left; color: #fff; }
+.conf2 h5 { margin-right: 290px; margin-top: 30px; margin-bottom: 60px; float: right; color: #fff; }
+
+/*== BOTAO SALVAR ==*/
+.botao-login { text-align: center; }
+
+/*== FOOTER ==*/
+
+@media screen and (max-width: 460px) {
+	body {background: #fff}
+	.logo img { width: 35%; height: auto; margin-top: 95px; }
+	.formulario .btn { width: 35%; }
+	.img-user { margin-top: 5px; }
+	.campo-user { float: right; width: 88%; }
+	.img-key { margin-top: 5px; }
+	.campo-key { float: right; width: 88%; }
+
+	.item-menu .item a { text-decoration: none; }
+	.item-opcao .opcao .item { width: 93%; float: left; margin-bottom: 10px; }
+	.item-opcao .edit { width: 0; float: right; margin-bottom: 15px;  }
+	.item-opcao .del { width: 0; float: right; margin-bottom: 15px; }
+
+	.btn-sm { border-radius: 20px; width: 30%; margin-left: 90px; }
+
+	.footer-menu img { margin-top: 100px; float: right; }
+	.footer-modelo img { margin-top: 100px; float: right; margin-bottom: 10px; }
+	.footer-serie img { margin-top: 100px; float: right; margin-bottom: 10px; }
+	.footer-diagnostico img { margin-top: 200px; float: right; margin-bottom: 10px; }
+	.footer-diagnostico-interno img { margin-top: 100px; float: right; margin-bottom: 10px; }
+	.footer-local img { margin-top: 100px; float: right; margin-bottom: 10px; }
+	.footer-sintoma img { margin-top: 100px; float: right; margin-bottom: 10px; }
+	.footer-reparo-efetuado img { margin-top: 100px; float: right; margin-bottom: 10px; }
+	.footer-reparo-concluido img { margin-top: 100px; float: right; margin-bottom: 10px; }
+}
